@@ -1,0 +1,452 @@
+nav.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 131px;
+    max-height: 131px;
+    justify-content: center;
+    align-content: center;
+    z-index: 99;
+    background-color: #FFFFFF!important;
+    transition: all 300ms ease-in-out;
+}
+.navbar.bg-body-tertiary.sticky-top.navbar-expand-lg{
+background-color: white !important;
+}
+.navbar-brand img{
+    max-height: 131px;
+}
+/*show the dropdown on hover*/
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+/*remove the arrow*/
+  .navbar-nav .nav-item.dropdown .dropdown-toggle::after {
+    display: none;
+  }
+.navbar-brand{
+    position: absolute;
+    left: 40%;
+}
+.navbar-hidden {
+    top: -300px !important; /* Adjust based on your navbar height */
+  }
+.navbar-nav .nav-item:hover .nav-link {
+    color: #C15627;
+  }
+  .navbar-nav{
+    position: absolute;
+    left: 15%;
+  }
+  .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    background-color:rgba(255, 255, 255, 0.5);
+     /* Change text color inside the dropdown */
+  }
+  .navbar-nav .nav-item.dropdown:hover .dropdown-menu a:hover {
+    color: #C15627;
+    background-color:rgba(255, 255, 255, 0.5);
+
+  }
+  #navlinks2{
+    position: absolute;
+    left:60%;
+  }
+  .btn{
+    background-color:#C15627 ;
+    border-radius: 30px ;
+    color: white;
+  }
+  .btn:hover{
+    background-color: #C15627;
+    color: white;
+    filter: brightness(120%);
+    border-radius: 30px ;
+  }
+  .navbar-nav.justify-content-center.flex-grow-1.pe-3 li{
+    padding: 0px 15px 
+  }
+.hero{
+    width: 100%;
+    height: 100%;
+    min-height: 550px;
+    object-fit: cover;
+}
+.hero h2{
+    color: white;
+    margin: -3% 0 0;
+    font-size: 7rem;
+    letter-spacing: -3px;
+    position: absolute;
+    top: 70%;
+    left: 25%;
+}
+#video-one{
+    width: 100%;
+    height: 100%;
+}
+/*content slider div css*/
+.content-slider{
+    margin-top: 5%;
+    margin-right: 10%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+#myCarousel .carousel-item img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    object-fit: cover;
+    height: 650px;
+    width: 750px;
+    padding-bottom: 50px;
+    border-radius: 50% 0 0 0;
+}
+.carousel-indicators button{
+    background-color: gray !important;
+  
+}
+.carousel-indicators button.active{
+    background-color: #C15627!important;
+}
+
+.content{
+    padding-right: 10%;
+    padding-left: 8%;
+}
+.content h2{
+    color: #1A4122;
+    text-align: center;
+    font-family: "F37 Caslon", serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 92%;
+    letter-spacing: -3px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+.content h3{
+    color: #647B4E;
+    text-align: center;
+    font-family: "Rustica", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.content p{
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 35px;
+    font-weight: 300;
+}
+.content .btn{
+width: 180px;
+position: absolute;
+left:20%
+    
+}
+.content .btn i{
+    position: relative;
+    left:1%;
+    transition: left .5s ease-in;
+}
+.content .btn:hover i{
+  left: 5%;
+}
+/*managing the size of the carrot pin image and placement*/
+.carrot-pin{
+    
+    width:100%;
+    height: 180vh;
+    background-image: url(https://24carrots.com/wp-content/themes/24carrots/img/big-carrot.svg);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    display: block;
+    position: absolute;
+    top: 220%;
+    left: 0;
+}
+/*for couple div*/
+.couple{
+    margin-top: 5%;
+    margin-left: 13%;
+    padding-right: 10%;
+}
+.couple #carouselExample .carousel-item img{
+    width: 468px !important;
+    height: 740px;
+    border-radius:250px 250px 0 0;
+    margin-right: 5%;
+    object-fit: cover;
+}
+.couple h2{
+    color: #1A4122;
+    text-align: left ;
+    font-family: "F37 Caslon", serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 92%;
+    letter-spacing: -3px;
+    margin-top: 100px;
+    margin-bottom: 24px;
+}
+
+#sliderNav{
+    position: absolute;
+    top: 295vh;
+    left: 45%;
+    z-index: 300;
+}
+ #sliderNav .scroll-accordion__button{
+    padding: 0 !important;
+    border: none !important;
+    background: none !important;
+    font-family: "F37 Caslon", serif;
+    font-size: 1.625rem;
+    font-weight: 400;
+    color: rgba(146, 146, 146, 0.5);
+    transition: color ease 400ms;
+
+}
+#sliderNav .scroll-accordion__button.active{
+    color: rgba(146, 146, 146, 1)
+}
+.subsection{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.subsection h3{
+    color: #1A4122;
+    text-transform: uppercase;
+    font-family: "futura-pt", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+}
+.subsection p{
+    color: #1A4122;
+    font-family: "futura-pt", sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 140%;
+}
+.subsection .btn i{
+    position: relative;
+    left:1%;
+    transition: left .5s ease-in;
+}
+.subsection .btn:hover i{
+    left: 5%;
+}
+.circle-container{
+margin-top: 35%;
+height: 110vh;
+}
+.circle-img{
+height: 600px;
+width: 100%;
+}
+.circle-container .circle{
+    display: inline-block;
+    background-color: white;
+    height:600px;
+    width:600px;
+    position: relative;
+    left:32%;
+    bottom: 18%;
+    border-radius: 50%;
+    z-index: 10000;
+    padding-top: 8%;
+}
+.circle h3{
+    color: #647B4E;
+    text-align: center;
+    font-family: "Rustica", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.circle h2{
+    color: #1A4122;
+    text-align: center;
+    font-family: "F37 Caslon", serif;
+    font-size: 98px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 92%;
+    letter-spacing: -3px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+.circle p{
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 35px;
+    font-style: normal;
+    font-weight: 300;
+    color: #1A4122;
+}
+.circle .btn i{
+    position: relative;
+    left:1%;
+    transition: left .5s ease-in;
+}
+.circle .btn:hover i{
+    left: 5%;
+}
+/*for venues div*/
+.venues{
+    margin-top: 20%;
+    margin-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    
+}
+
+
+.venues .carousel-inner .carousel-item img {
+    width: 650px;
+    height: 650px;
+    object-fit: cover;
+    z-index: -1;
+}
+.venues .carousel-inner{
+    display: flex;
+    flex-wrap: nowrap;
+    scroll-snap-type: x mandatory;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 20px;
+}
+.venues .carousel-inner .carousel-item{
+    display: block;
+    margin-right: 0;
+    flex: 0 0 calc(100%/3);
+
+    width: 100%; /* Set your desired width */
+    scroll-snap-align: start;
+}
+.venues .carousel-inner .carousel-item image:hover{
+    opacity: 0;
+
+}
+/* WebKit (Chrome, Safari, newer versions of Opera) */
+/* WebKit (Chrome, Safari, newer versions of Opera) */
+::-webkit-scrollbar {
+    display: none;
+    width: 6px; /* Set the width of the scrollbar */
+    padding: 30px; /* Add padding to create a longer track */
+  }
+.overlay{
+    display: none;
+    height: 650px;
+    width: 650px;
+    position: relative;
+    bottom: 50%;
+    background-color:rgb(252, 98, 32,0.7) ;
+    color:white;
+    z-index: 3;
+    transition: display 0.5s;
+}
+.venues .carousel-inner .carousel-item:hover .overlay{
+    display: inline-block;
+}
+
+.teal-background{
+    display: inline-block;
+    z-index: -10;
+    height: 120vh;
+    width: 100%;
+    top: 630vh;
+    position: absolute;
+    background-color: #E8EBE4;
+}
+.more-than-business{
+    position: absolute;
+    top:680vh ;
+    z-index: 30;
+    height: 120vh;
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.more-than-business h2{
+    color: #1A4122;
+    text-align: center;
+    font-family: "F37 Caslon", serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 92%;
+    letter-spacing: -3px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+    padding-left: 15%;
+    padding-right:15% ;
+}
+.simple-content-block{
+    position: absolute;
+    top:800vh ;
+    z-index: 30;
+    height: 120vh;
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.simple-content-block h2{
+    text-align: center;
+    margin: 0px auto 30px;
+    color: #1A4122;
+  
+    font-family: "F37 Caslon", serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 92%;
+    letter-spacing: -3px;
+
+}
+.service-grid-block{
+    
+    padding-left: 10%;
+    position: absolute;
+    top:870vh ;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+.service-grid-block img{
+    grid-column-start: 2;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    height: 600px;
+}
+.service-block.hover-1{
+    padding-left: 5%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    max-width: 300px;
+    float: right;
+    margin-right: 30px;
+}
+.btn-outline{
+
+    border: 2px #C15627;
+    color: #C15627;
+}
